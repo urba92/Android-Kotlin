@@ -10,9 +10,7 @@ val sizeInPx = with(LocalDensity.current) { 16.dp.toPx() }
 val screenHeight = configuration.screenHeightDp.dp
 val screenWidth = configuration.screenWidthDp.dp
 
-**Device orientation**
-
-One of the things you can get from the LocalConfiguration is the orientation of your device. This can be used to give the user a different ui when the device is rotated.
+[**Device orientation**](https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocal/#localconfiguration)
 ```Kotlin
 val configuration = LocalConfiguration.current
 when (configuration.orientation) {
