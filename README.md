@@ -17,10 +17,9 @@ when (configuration.orientation) {
 }
 ```
 
-
+**Device screen size**
 ```Kotlin
-  val configuration = LocalConfiguration.current
-
+val configuration = LocalConfiguration.current
 val screenHeight = configuration.screenHeightDp.dp
 val screenWidth = configuration.screenWidthDp.dp
 ```
