@@ -17,6 +17,7 @@ when (configuration.orientation) {
 }
 ```
 
+
 ```Kotlin
   val configuration = LocalConfiguration.current
 
