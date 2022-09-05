@@ -10,7 +10,7 @@ val sizeInPx = with(LocalDensity.current) { 16.dp.toPx() }
 val screenHeight = configuration.screenHeightDp.dp
 val screenWidth = configuration.screenWidthDp.dp
 
-**Device orientation
+**Device orientation**
 ```Kotlin
 val configuration = LocalConfiguration.current
 when (configuration.orientation) {
