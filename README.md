@@ -4,12 +4,6 @@
 ```Kotlin
 val sizeInPx = with(LocalDensity.current) { 16.dp.toPx() }
 ```
-
-  val configuration = LocalConfiguration.current
-
-val screenHeight = configuration.screenHeightDp.dp
-val screenWidth = configuration.screenWidthDp.dp
-
 [**Device orientation**](https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocal/#localconfiguration)
 ```Kotlin
 val configuration = LocalConfiguration.current
@@ -21,4 +15,11 @@ when (configuration.orientation) {
         Text("Portrait")
     }
 }
+```
+
+```Kotlin
+  val configuration = LocalConfiguration.current
+
+val screenHeight = configuration.screenHeightDp.dp
+val screenWidth = configuration.screenWidthDp.dp
 ```
