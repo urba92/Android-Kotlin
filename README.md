@@ -1,5 +1,7 @@
 # Android Kotlin
 
+Fabio Chiarani, ["Android: Bluetooth as a Service".](https://proandroiddev.com/android-bluetooth-as-a-service-c39c3d732e56)
+
 [**A density of the screen**](https://developer.android.com/reference/kotlin/androidx/compose/ui/unit/Density)
 ```Kotlin
 val sizeInPx = with(LocalDensity.current) { 16.dp.toPx() }
